@@ -1,0 +1,5 @@
+declare_args() {
+    # Controls EVC codec profile.
+    is_profile_main = false
+}
+

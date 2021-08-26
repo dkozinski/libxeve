@@ -1,0 +1,48 @@
+xeve_root_dir="//third_party/libxeve/source/libxeve/"
+
+xeve_main_sources = [
+  "${xeve_root_dir}/src_main/xevem_alf.c",
+  "${xeve_root_dir}/src_main/xevem_alf.h",
+  "${xeve_root_dir}/src_main/xevem.c",
+  "${xeve_root_dir}/src_main/xevem_df.c",
+  "${xeve_root_dir}/src_main/xevem_df.h",
+  "${xeve_root_dir}/src_main/xevem_dra.c",
+  "${xeve_root_dir}/src_main/xevem_dra.h",
+  "${xeve_root_dir}/src_main/xevem_eco.c",
+  "${xeve_root_dir}/src_main/xevem_eco.h",
+  "${xeve_root_dir}/src_main/xevem_ibc_hash.c",
+  "${xeve_root_dir}/src_main/xevem_ibc_hash.h",
+  "${xeve_root_dir}/src_main/xevem_ipred.c",
+  "${xeve_root_dir}/src_main/xevem_ipred.h",
+  "${xeve_root_dir}/src_main/xevem_itdq.c",
+  "${xeve_root_dir}/src_main/xevem_itdq.h",
+  "${xeve_root_dir}/src_main/xevem_mc.c",
+  "${xeve_root_dir}/src_main/xevem_mc.h",
+  "${xeve_root_dir}/src_main/xevem_mode.c",
+  "${xeve_root_dir}/src_main/xevem_mode.h",
+  "${xeve_root_dir}/src_main/xevem_pibc.c",
+  "${xeve_root_dir}/src_main/xevem_picman.c",
+  "${xeve_root_dir}/src_main/xevem_picman.h",
+  "${xeve_root_dir}/src_main/xevem_pinter.c",
+  "${xeve_root_dir}/src_main/xevem_pintra.c",
+  "${xeve_root_dir}/src_main/xevem_pred.h",
+  "${xeve_root_dir}/src_main/xevem_recon.c",
+  "${xeve_root_dir}/src_main/xevem_recon.h",
+  "${xeve_root_dir}/src_main/xevem_stat.c",
+  "${xeve_root_dir}/src_main/xevem_stat.h",
+  "${xeve_root_dir}/src_main/xevem_tbl.c",
+  "${xeve_root_dir}/src_main/xevem_tbl.h",
+  "${xeve_root_dir}/src_main/xevem_tq.c",
+  "${xeve_root_dir}/src_main/xevem_tq.h",
+  "${xeve_root_dir}/src_main/xevem_type.h",
+  "${xeve_root_dir}/src_main/xevem_util.c",
+  "${xeve_root_dir}/src_main/xevem_util.h",
+]
+
+xeve_main_sse_sources = [
+  "${xeve_root_dir}/src_main/sse/xevem_itdq_sse.c",
+  "${xeve_root_dir}/src_main/sse/xevem_itdq_sse.h",
+  "${xeve_root_dir}/src_main/sse/xevem_mc_sse.c",
+  "${xeve_root_dir}/src_main/sse/xevem_mc_sse.h",
+]
+

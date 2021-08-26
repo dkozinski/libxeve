@@ -1,0 +1,58 @@
+xeve_root_dir="//third_party/libxeve/source/libxeve/"
+xeve_base_sources = [
+  "${xeve_root_dir}/src_base/xeve_bsw.c",
+  "${xeve_root_dir}/src_base/xeve_bsw.h",
+  "${xeve_root_dir}/src_base/xeve.c",
+  "${xeve_root_dir}/src_base/xeve_def.h",
+  "${xeve_root_dir}/src_base/xeve_df.c",
+  "${xeve_root_dir}/src_base/xeve_df.h",
+  "${xeve_root_dir}/src_base/xeve_eco.c",
+  "${xeve_root_dir}/src_base/xeve_eco.h",
+  "${xeve_root_dir}/src_base/xeve_fcst.c",
+  "${xeve_root_dir}/src_base/xeve_fcst.h",
+  "${xeve_root_dir}/src_base/xeve_ipred.c",
+  "${xeve_root_dir}/src_base/xeve_ipred.h",
+  "${xeve_root_dir}/src_base/xeve_itdq.c",
+  "${xeve_root_dir}/src_base/xeve_itdq.h",
+  "${xeve_root_dir}/src_base/xeve_mc.c",
+  "${xeve_root_dir}/src_base/xeve_mc.h",
+  "${xeve_root_dir}/src_base/xeve_mode.c",
+  "${xeve_root_dir}/src_base/xeve_mode.h",
+  "${xeve_root_dir}/src_base/xeve_picman.c",
+  "${xeve_root_dir}/src_base/xeve_picman.h",
+  "${xeve_root_dir}/src_base/xeve_pinter.c",
+  "${xeve_root_dir}/src_base/xeve_pintra.c",
+  "${xeve_root_dir}/src_base/xeve_port.c",
+  "${xeve_root_dir}/src_base/xeve_port.h",
+  "${xeve_root_dir}/src_base/xeve_pred.h",
+  "${xeve_root_dir}/src_base/xeve_rc.c",
+  "${xeve_root_dir}/src_base/xeve_rc.h",
+  "${xeve_root_dir}/src_base/xeve_recon.c",
+  "${xeve_root_dir}/src_base/xeve_recon.h",
+  "${xeve_root_dir}/src_base/xeve_sad.c",
+  "${xeve_root_dir}/src_base/xeve_sad.h",
+  "${xeve_root_dir}/src_base/xeve_tbl.c",
+  "${xeve_root_dir}/src_base/xeve_tbl.h",
+  "${xeve_root_dir}/src_base/xeve_thread_pool.c",
+  "${xeve_root_dir}/src_base/xeve_thread_pool.h",
+  "${xeve_root_dir}/src_base/xeve_tq.c",
+  "${xeve_root_dir}/src_base/xeve_tq.h",
+  "${xeve_root_dir}/src_base/xeve_type.h",
+  "${xeve_root_dir}/src_base/xeve_util.c",
+  "${xeve_root_dir}/src_base/xeve_util.h",
+]
+
+xeve_base_sse_sources = [
+  "${xeve_root_dir}/src_base/sse/xeve_mc_sse.c",
+  "${xeve_root_dir}/src_base/sse/xeve_mc_sse.h",
+  "${xeve_root_dir}/src_base/sse/xeve_sad_sse.c",
+  "${xeve_root_dir}/src_base/sse/xeve_sad_sse.h",
+]
+
+xeve_base_avx_sources = [
+  "${xeve_root_dir}/src_base/avx/xeve_mc_avx.c",
+  "${xeve_root_dir}/src_base/avx/xeve_mc_avx.h",
+  "${xeve_root_dir}/src_base/avx/xeve_sad_avx.c",
+  "${xeve_root_dir}/src_base/avx/xeve_sad_avx.h",
+]
+
