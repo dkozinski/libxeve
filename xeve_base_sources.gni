@@ -47,6 +47,8 @@ xeve_base_sse_sources = [
   "${xeve_root_dir}/src_base/sse/xeve_mc_sse.h",
   "${xeve_root_dir}/src_base/sse/xeve_sad_sse.c",
   "${xeve_root_dir}/src_base/sse/xeve_sad_sse.h",
+  "${xeve_root_dir}/src_base/sse/xeve_itdq_sse.c",
+  "${xeve_root_dir}/src_base/sse/xeve_itdq_sse.h",
 ]
 
 xeve_base_avx_sources = [
@@ -54,5 +56,7 @@ xeve_base_avx_sources = [
   "${xeve_root_dir}/src_base/avx/xeve_mc_avx.h",
   "${xeve_root_dir}/src_base/avx/xeve_sad_avx.c",
   "${xeve_root_dir}/src_base/avx/xeve_sad_avx.h",
+  "${xeve_root_dir}/src_base/avx/xeve_itdq_avx.c",
+  "${xeve_root_dir}/src_base/avx/xeve_itdq_avx.h",
 ]
 
