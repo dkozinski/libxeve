@@ -1,3 +1,4 @@
 [submodule "source/libxeve"]
 	path = source/libxeve
-	url = https://d.kozinski@github.sec.samsung.net/RD-ADMEDIA/xeve_internal.git
+	url = https://github.com/mpeg5/xeve.git
+	branch = master
